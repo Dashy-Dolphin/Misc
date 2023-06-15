@@ -3,6 +3,7 @@ using namespace std;
 
 int x[100000];
 int n;
+//returns true if target sum is possible with any sub sequence of the x[0..(n - 1)]
 bool solve(int target)
 {
     set<int> sumcnt;
